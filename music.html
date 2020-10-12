@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>音乐播放器测试页</title>
+</head>
+<body>
+    <h1>音乐播放器</h1>
+    <div id="player">
+        <audio id="musicbox"></audio>
+        <div id="controls" class="clearfix controls">
+            <div id="play" class="playng"></div>
+            <div id="next"></div>
+            <div id="progress">
+                <div></div>
+                <p id="time">00:00/00:00</p>
+            </div>
+            <div id="volume"><div></div></div>
+        </div>
+        <div class="bar">
+            <button>重置列表</button>
+            <button>随机打乱</button>
+            <button>清空选择</button>
+        </div>
+        <ul id="musiclist"></ul>
+        <div class="bar bottom"><span>播放模式：</span><span id="mode">全部</span></div>
+    </div>
+<audio id="musicbox"><audio src=""></audio></audio>
+</body>
+</html>
